@@ -117,6 +117,7 @@ padding-top: 150px;
     align-items: center;
     width: 1920px;
     padding: 70px;
+    margin-bottom: 150px;
     
     /* height: 858px; */
 }
@@ -162,15 +163,21 @@ padding-top: 150px;
     background-color: #4E5EFF;
     padding: 100px;
     margin-top: 100px;
+    height: 550px;
+    /* position: fixed; */
+  
    
   
 }
+
 .mid{
     display: flex;
     justify-content: center;
 }
 .picsic{
     margin-left: 383px;
+    display: flex;
+    justify-content: center;
 }
 .frame{
     margin-right: 20px;
@@ -188,11 +195,13 @@ span{
 .down{
     margin-left: 380px;
     color: white;
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .containerseventh{
     background-color: black;
-    height: 400px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,3 +216,32 @@ button{
     height: 50px;
 }
 
+.https{
+    display: flex;
+    gap: 70px;
+}
+.footfirst{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.https a{
+    color: black;
+    display: flex;
+   
+}
+.footsec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+    padding: 0 50px;
+    margin-bottom: 70px;
+}
+.footsecsec{
+    display: flex;
+    gap: 80px;
+
+}
